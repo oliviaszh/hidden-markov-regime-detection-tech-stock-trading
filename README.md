@@ -21,6 +21,31 @@ This is a 3-state Hidden Markov Model using daily returns of QQQ (Nasdaq 100 ETF
 
 The system plots the regimes over time from 2015-2025, providing a framework for understanding market states and making informed trading decisions.
 
+## Limitations
+
+### Current Limitations
+
+In the future, I want to experiment with different inputs beyond just VIX and QQQ:
+
+- **Circular Dependence**: QQQ has circular dependence with the stocks I've chosen since many tech stocks are components of QQQ
+- **Limited Signal Diversity**: Need additional uncorrelated signals for better regime detection
+
+### Future Model Exploration
+
+I want to use and compare different types of models:
+
+- **Regression Models**: For baseline comparisons
+- **GARCH Models**: For volatility modeling
+- **Markov Switching Models**: Alternative regime detection with economic interpretability
+- **Machine Learning**: XGBoost or Random Forest for non-linear pattern recognition
+
+### Potential Input Enhancements
+
+- **VT (Total World Stock ETF)**: Broader market exposure beyond Nasdaq
+- **War-related data**: Geopolitical risk indicators
+- **Oil-related data**: Energy sector correlations
+- **Additional volatility measures**: Beyond just VIX
+
 ## Overview
 
 This system combines momentum investing with regime detection to create a more robust trading strategy. By identifying different market states (bullish, bearish, volatile), the system can adjust its momentum approach to better suit current market conditions.
