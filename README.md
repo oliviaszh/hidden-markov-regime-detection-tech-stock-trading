@@ -2,9 +2,9 @@
 
 ## Background
 
-My personal portfolio is heavily concentrated in tech stocks (Google, Meta, Nvidia, Microsoft, Amazon, Tesla, QQQ, etc.). The reason is simple: 1) I believe in the future of tech. I believe AI will replace many manual tasks and generate substantial revenue. 2) I understand the tech sector. I read tech-related news and constantly think about how semiconductors, AI, and other sub-sectors interact.
+My personal portfolio is heavily concentrated in tech stocks (Google, Meta, Nvidia, Microsoft, Amazon, Tesla, QQQ, etc.). The reason is simple: 1) I believe in the future of tech. I believe AI will replace many manual tasks and generate substantial revenue. 2) I understand the tech sector. 
 
-I want to build a trading strategy that gives me indications on how and when to trade. I use HMM because it's explainable and statistically significant. Markets have hidden regimes (bull, bear, choppy) that I can't observe directly. I only see prices and volatility. HMM is designed for inferring hidden states from noisy observations over time. I can interpret the transition dynamics.
+I want to build a trading strategy that gives me indications on how and when to trade. I use Hidden Markov Model because it's explainable and statistically significant. Markets have hidden regimes (bull, bear, choppy) that can't be observed directly. HMM is good for inferring hidden states from noisy observations over time so I can interpret the transition dynamics.
 
 ## What It Is
 
